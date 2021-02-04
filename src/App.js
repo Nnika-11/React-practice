@@ -2,13 +2,15 @@ import logo from './logo.svg';
 import './App.css';
 import Button from 'react-bootstrap/Button';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Header from "./components/Header";
 
 function App() {
   return (
     <div>
-    <h1> Hello word</h1>
-    <Button variant="primary">Button</Button>
+    <Header />
+    
     </div>
+    
     // <div className="App">
     //   <header className="App-header">
     //     <img src={logo} className="App-logo" alt="logo" />
