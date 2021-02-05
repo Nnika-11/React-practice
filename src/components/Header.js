@@ -39,6 +39,13 @@ export default class Header extends Component {
             </Navbar.Collapse>
           </Container>
       </Navbar>
+      <Router>
+        <Switch>
+          <Route exact path = "/" component = {}/>
+        </Switch>
+      </Router>
+
+
       </>
        )
     }
